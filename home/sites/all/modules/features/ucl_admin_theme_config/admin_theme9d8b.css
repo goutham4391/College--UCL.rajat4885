@@ -1,0 +1,17 @@
+.form-item-field-caption-und-0-value .form-textarea-wrapper {
+    overflow: auto;
+}
+
+#edit-field-caption-und-0-format {
+    margin-left: 15em;
+}
+
+.node-form #edit-delete {
+    background: #e03c31;
+    color: white;
+}
+
+#node-delete-confirm #edit-submit {
+    background: #e03c31;
+    color: white;
+}

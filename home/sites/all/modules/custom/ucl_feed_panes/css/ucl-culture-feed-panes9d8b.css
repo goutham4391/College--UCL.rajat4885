@@ -1,0 +1,130 @@
+
+.ucl-culture-feed {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.ucl-culture-feed .filter-message {
+    margin-top: 3%;
+    margin-bottom: -1%;
+}
+
+.ucl-culture-feed .filter-message.fm0 {
+    margin-bottom: 5%;
+}
+.ucl-culture-feed .filter-message.fm {
+    margin-bottom: 5%;
+}
+
+.ucl-culture-feed .across3 {
+    clear: both;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.ucl-culture-feed .across3 .outer {
+	position: relative;
+	float:left;
+	width:31.274%;	/* 405/1295 */
+    padding-bottom: 31.274%;
+	margin-right:3.0888%;	/* 40/1295 */
+	margin-top: 3.0888%;	/* 40/1295 */
+    background-color: #dddddd;
+
+}
+.ucl-culture-feed .across3 .outer.n3 {margin-right: 0;}
+.ucl-culture-feed .across3 .outer.n6 {margin-right: 0;}
+.ucl-culture-feed .across3 .outer.n9 {margin-right: 0;}
+.ucl-culture-feed .across3 .outer.n12 {margin-right: 0;}
+.ucl-culture-feed .across3 .outer.n15 {margin-right: 0;}
+.ucl-culture-feed .across3 .outer:last-child {margin-right: 0;}
+
+.ucl-culture-feed .pagination {
+    margin-top: 4%;
+    position: relative;
+    float: left;
+    left: 50%;
+    transform: translate(-50%,0);
+    -ms-transform:  translate(-50%,0); /* IE 9 */
+    -webkit-transform:  translate(-50%,0); /* Chrome, Safari, Opera */
+    -moz-transform: translate(-50%,0) ;
+
+}
+.ucl-culture-feed .pagination li {
+    position: relative;
+    float: left;
+}
+
+.ucl-culture-feed .pagination .notbox {
+    padding:0.43em 0;
+}
+.ucl-culture-feed .pagination .pager-text {
+    position: relative;
+    float: left;
+}
+.ucl-culture-feed .pagination .pager-box {
+    position: relative;
+    float: left;
+    width: 2em;
+    padding: 0 0 2.5em 0;
+    height: 0;
+    background-color: #b2b2b2;
+    border: 0;
+    margin: 0 0.5em 0.5em 0;
+}
+.ucl-culture-feed .pagination .pager-box.current {
+    background-color: #191919;
+}
+.ucl-culture-feed .pagination .pager-box>div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    color:#ffffff;
+}
+.ucl-culture-feed .pagination .pager-box div>div {
+    position: absolute;
+    top:50%;
+    width:100%;
+    transform: translate(0,-50%);
+    -ms-transform:  translate(0,-50%); /* IE 9 */
+    -webkit-transform:  translate(0,-50%); /* Chrome, Safari, Opera */
+    -moz-transform: translate(0,-50%) ;
+    padding-top: 1px; /* fixes nasty translate problem which makes underline blurry on chrome */
+    cursor: pointer;
+}
+.ucl-culture-feed .pagination .pager-box:hover div>div {
+    text-decoration: underline;
+    color:ffffff;
+}
+.ucl-culture-feed .pagination .pager-box .num {
+    display: none;
+}
+.ucl-culture-feed .pagination .pager-box .dots {
+    display: block;
+}
+.ucl-culture-feed .pagination .pager-box.active .num {
+    display: block;
+}
+.ucl-culture-feed .pagination .pager-box.active .dots {
+    display: none;
+}
+
+.pagination .pager-box {display: none;}
+.pagination .pager-box.show {display: block;}
+/*
+.pagination .pager-box.active.first {display: block;}
+.pagination .pager-box.active.last {display: block;}
+*/
+@media only screen and (max-width: 767px) {
+
+
+    .ucl-culture-feed .across3 .outer {
+        width:100% !important;
+        padding-bottom: 100% !important;
+        margin-right:0 !important;
+        margin-top: 4% !important;
+    }
+
+}
